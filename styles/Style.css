@@ -1,0 +1,248 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Koulen', sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* FONT
+@font-face {
+    font-family: 'Koulen';
+    src: url(../Assets/Koulen/Koulen-Regular.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* LOGO */
+header {
+    background-color: #D9D9D9;
+    color: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-circle {
+    background-color: #84A6FF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* LOGIN BUTTON */
+.login-button {
+    background-color: #84A6FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.login-button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* CONTAINER BOX */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    background-color: #EEF3FF;
+    border-radius: 15px;
+    padding: 20px;
+    width: 2200px;
+    height: 790px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    font-family: 'Koulen',sans-serif;
+}
+
+.content p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.image-container {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 1000px;
+    margin-top: -850px;
+}
+
+/* BUTTON */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex; 
+    width: 50%;
+}
+
+button {
+    flex: 1;
+    padding: 20px 35px;
+    background-color: #84A6FF;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+/* MENU */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.menu li {
+    text-align: center;
+    flex: 1; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border: none;
+}
+.menu li h2 {
+    font-size: 30px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.menu-listing{
+    flex-direction: column;
+}
+
+
+/* CHAT */
+/* doctor list */
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.doctor-profile {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+    display: inline-block;
+    margin-right: -250px;
+}
+
+.doc-desc {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+}
+
+.doctor-profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.doctor-profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.doctor-profile p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* SPECIALIST MENU */
+
+.specialist-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2000px;
+}
+
+.specialist{
+  width: 200px;
+  height: 120px;
+  background-color: #333; /* Circle background color */
+  border-radius: 50%; /* Makes the square shape a circle */
+  /* margin-left: 10px; */
+  margin-right: -525px;
+  margin-bottom: 400px;
+}
