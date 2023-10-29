@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Koulen;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar {
+    position: sticky;
+    display: flex;
+    background-color: #d9d9d9;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+}
+
+.nav-bar .nav-left .nav-title div a {
+    text-decoration: none;
+    align-items: baseline;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    padding: 1vh;
+    margin: 2vh;
+}
+
+.nav-left {
+    margin-right: 0;
+    font-size: 3vh;
+}
+
+.nav-title {
+    margin-right: 0;
+    font-size: 4vh;
+}
+
+.nav-left div {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-right div a {
+    padding: 1vh 2vw;
+    font-size: 2vh;
+    width: auto;
+    height: 2vh;
+    border-radius: 1vh;
+    background: #84A6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.nav-bar .nav-right div a:hover {
+    background: #6495ED;
+    cursor: pointer;
+}
+
+.nav-right div {
+    margin-right: 1vw;
+    padding: 20px; 
+}
+
+.nav-bar .nav-right div a:hover {
+    background: #6495ED;
+    cursor: pointer;
+}
+
+.dot {
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #84A6FF;
+    margin-top: 3vh;
+}
+
+.content {
+    border-radius: 15px;
+    background: #EEF3FF;
+    padding: 0.2vh;
+
+    height: 50vh auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 45px;
+
+    z-index: 2;
+}
+
+.judul_content {
+    text-align: center;
+}
+
+.title-text {
+    margin-left: 71px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-decs {
+    margin-left: 71px;
+    color: #000;
+    font-family: Kreon;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    margin-left: 71px;
+    background: #84A6FF;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 50px;
+}
+
+
+.down {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.down div h3{
+    height: 25px;
+    margin: 2px;
+}
+
+
+li {
+    margin-bottom: -10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.about-text {
+    font-family: Kreon;
+    line-height: 0;
+    overflow-wrap: break-word;
+}
+
+.contact {
+    margin-bottom: -20px;
+    font-family: Kreon;
+}
+
+.foto-bulet-tmpt {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.foto-container {
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.foto-container img {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+}
+
+.text-container {
+    margin-right: 24px;
+    text-align: right;
+}
+
+.doctor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 210px;
+    right: 80px;
+}
+
+.doctor img {
+    max-width: 589px;
+    max-height: 255px;
+    margin-right: 20px;
+}
+
+.foto-container,
+.doctor img {
+    vertical-align: baseline;
+}
