@@ -97,7 +97,7 @@ a {
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 10px 5%;
 }
 
 .down-text {
@@ -130,14 +130,16 @@ li a {
 }
 
 .content{
+    flex-shrink: 0;
     margin-top: 4%;
-    width: 97%;
+    width: 100%;
     height: 590px;
     border-radius: 30px;
     background-color: #EEF3FF;
 }
 
 .top{
+    flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -198,6 +200,7 @@ li a {
 }
 
 .bottom{
+    flex-shrink: 0;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
