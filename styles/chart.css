@@ -1,0 +1,297 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Koulen;
+}
+
+/* Navbar Section */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar {
+  position: sticky;
+  display: flex;
+  background-color: #d9d9d9;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+}
+
+.nav-bar .nav-left .nav-title div a {
+  text-decoration: none;
+  align-items: baseline;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  padding: 1vh;
+  margin: 2vh;
+}
+
+.nav-left {
+  margin-right: 0;
+  font-size: 3vh;
+}
+
+.nav-title {
+  margin-right: 0;
+  font-size: 4vh;
+}
+
+.nav-left div {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding: 1vh;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .nav-right div a {
+  padding: 1vh 1vw;
+  font-size: 3vh;
+  width: auto;
+  height: 2vh;
+  border-radius: 1vh;
+  background: #84a6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.nav-bar .nav-right div a:hover {
+  background: #6495ed;
+  cursor: pointer;
+}
+
+.nav-right div {
+  margin-right: 1vw;
+  padding: 20px;
+}
+
+.nav-bar .nav-right div a:hover {
+  background: #6495ed;
+  cursor: pointer;
+}
+
+/* Chart Section */
+.container {
+  background-color: #eef3ff;
+  border-radius: 15px;
+  padding: 1.1rem;
+  width: 95%;
+  height: 30rem;
+  margin: 0rem auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container .buttons {
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 0.2rem;
+}
+
+.buttons .searching {
+  width: 80rem;
+}
+
+.buttons .searching input {
+  border: none;
+  font-size: 1.4rem;
+  background: #d9d9d9;
+  width: 95%;
+  height: 2.5rem;
+  margin: 0rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.buttons .searching ::-webkit-input-placeholder {
+  color: black;
+  font-weight: 600;
+}
+
+.buttons .search {
+  margin-top: 1px;
+}
+
+.buttons .search a {
+  background: #d9d9d9;
+  font-size: 1.4rem;
+  padding: 0.1rem 70%;
+  border-radius: 0.5rem;
+}
+
+.bars {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 3rem 1rem;
+  gap: 4rem;
+}
+
+.bars .no1 {
+  background: #d9d9d9;
+  height: 20rem;
+  width: 22rem;
+}
+
+.no1 .box {
+  margin-top: -27px;
+  background: #84a6ff;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.no1 .listmenu {
+  margin-top: -25px;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 0;
+}
+
+.no1 .listmenu .putih {
+  background: white;
+  text-align: center;
+  height: 2.75rem;
+  width: 100%;
+}
+
+.no1 .listmenu .putih a {
+  font-size: 1.5rem;
+}
+
+.no1 .listmenu .biru a {
+  font-size: 1.5rem;
+}
+
+.no1 .listmenu .biru {
+  text-align: center;
+  background: #84a6ff80;
+  height: 2.75rem;
+  width: 100%;
+}
+
+.bars .no2 {
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  background: #d9d9d9;
+  height: 20rem;
+}
+
+.no2 .box {
+  background: #84a6ff;
+  width: 90%;
+  height: 13rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.no2 .text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -20px;
+}
+
+.no2 .beli {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.no2 .beli .harga {
+  font-size: 1.1rem;
+  margin: 0rem 1rem;
+  margin-top: -25px;
+}
+
+.no2 .beli .addbutton button {
+  border: none;
+  padding: 0.7rem;
+  margin: 0rem 1rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.bars .no3 {
+  border-radius: 10px;
+  background: #d9d9d9;
+  height: 20rem;
+}
+
+.no3 .box {
+  background: #84a6ff;
+  width: 90%;
+  height: 13rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.no3 .text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -20px;
+}
+
+.no3 .beli {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.no3 .beli .harga {
+  font-size: 1.1rem;
+  margin: 0rem 1rem;
+  margin-top: -25px;
+}
+
+.no3 .beli .addbutton button {
+  border: none;
+  padding: 0.7rem;
+  margin: 0rem 1rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* Footer Section */
+
+.down-text {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.down-text div h3 {
+  height: 25px;
+  margin: 2px;
+  font-weight: 600;
+}
+li {
+  margin-bottom: -10px;
+}
+
+.about-text {
+  font-family: Kreon;
+  line-height: 0;
+  overflow-wrap: break-word;
+}
+
+.contact li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.contacts {
+  margin-bottom: -20px;
+  font-family: Kreon;
+  text-decoration: none;
+}
