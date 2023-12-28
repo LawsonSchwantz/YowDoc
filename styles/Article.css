@@ -81,6 +81,15 @@ a {
   cursor: pointer;
 }
 
+.dot {
+  height: 3vh;
+  width: 3vh;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #84a6ff;
+  margin-top: 3vh;
+}
+
 /* Articles Section */
 .container {
   background-color: #eef3ff;
@@ -132,12 +141,14 @@ a {
   border-radius: 10px;
 }
 
-.box .box2 {
+.box img {
   background: #e5e7ee;
   margin: 1rem auto;
   width: 90%;
   height: 12rem;
   border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 1.3rem;
 }
 
 .box h3 {
@@ -162,16 +173,18 @@ a {
   display: flex;
   box-sizing: border-box;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
 }
-
 .down-text div h3 {
   height: 25px;
   margin: 2px;
-  font-weight: 600;
 }
 li {
   margin-bottom: -10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #007bff;
 }
 
 .about-text {
@@ -180,13 +193,7 @@ li {
   overflow-wrap: break-word;
 }
 
-.contact li {
-  text-decoration: none;
-  list-style: none;
-}
-
-.contacts {
+.contact {
   margin-bottom: -20px;
   font-family: Kreon;
-  text-decoration: none;
 }
