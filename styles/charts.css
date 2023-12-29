@@ -229,6 +229,7 @@ a {
   margin: 0rem 1rem;
   border-radius: 5px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .bars .no3 {
@@ -270,6 +271,7 @@ a {
   margin: 0rem 1rem;
   border-radius: 5px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* Footer Section */
